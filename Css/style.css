@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    background-color: black;
+}
+
+/*Header*/
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 25px;
+}
+
+.logo-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+}
+
+.logo-image:hover {
+    transform: scale(1.1);
+    transition: 1.8s;
+    cursor: pointer;
+}
+
+.cabeçalho ul,
+.cabeçalho li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    font-family: Roboto;
+    color: white;
+}
+
+.cabeçalho li:hover {
+    transform: scale(1.2);
+    transition: 1.8s;
+    color: white;
+    cursor: pointer;
+    text-shadow: 0 0 4px red;
+
+}
+
+
+.cabeçalho .carrinho {
+    border-radius: 25%;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+}
+
+.container-1 {
+    background-image: url(/Img/singapore-1990959_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 20em 0;
+    position: relative;
+
+}
+
+.text,
+.text-1 {
+    text-align: center;
+    color: white;
+    font-family: roboto;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.text-1 {
+    font-size: 50px;
+}
+
+.text {
+    font-size: 25px;
+}
+
+.text:hover {
+    cursor: pointer;
+}
+
+.text-1:hover {
+    cursor: pointer;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 100px;
+    background-color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.aplicação {
+    text-align: center;
+    background-color: black;
+    font-family: roboto;
+
+}
+
+.icon-icon {
+    font-size: 40px;
+    color: white;
+    padding-top: 20px;
+
+}
+
+.icon-icon:hover {
+    transform: scale(1.5);
+    transition: 2s;
+    cursor: pointer;
+}
+
+.text-icon {
+    margin-top: 20px;
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: 50;
+    color: white;
+}
+
+.texto-definição {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: roboto;
+
+}
+
+.escolher-planos {
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: roboto;
+    font-size: 35px;
+    text-shadow: 0 0 5px blue;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.planos{
+    flex: 1 1 200px;
+    max-width: 275px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.planos ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.planos li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+}
+
+.planos .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+    color: black;
+}
+
+.planos .tipo-plano{
+    background-color: #051459;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.planos .plan-btn{
+    background-color: #051459;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+}
+
+.planos .plan-btn:hover{
+    transform: scale(1.1);
+    transition: 1.8s;
+    cursor: pointer;
+}
+
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.message{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form{
+    text-align: center;
+}
+
+.form{
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    font-size: 12pt;
+    box-shadow: 0px 10px 20px #051459;
+    outline: none;
+    box-sizing: border-box;
+    transition: .7s;
+    font-size: 10pt;
+    width: 50vw;
+}
+
+.buton {
+    width: 12.5vw;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    background-color: #051459;
+    color: white;
+
+}
+
+.buton:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    color: white;
+}
+
+.container-5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.formulario-entrada{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'roboto';
+    margin-bottom: 20px;
+}
+
+.container-5 input, .container-5 textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.container-5 textarea{
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 468px;
+    height: 160px;
+}
+
+.container-5 input[type=submit]{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-5 input[type=submit]:hover{
+    transform: scale(1.09);
+    transition: 1.9s;
+    cursor: pointer;
+}
